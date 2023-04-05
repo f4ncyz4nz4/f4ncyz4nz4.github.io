@@ -5,7 +5,9 @@ var typewriter = new Typewriter(app, {
   delay: 75,
   autoStart: true,
   cursor: "█",
-  strings: ["My name is Lorenzo, and I am a student and wannabe hacker."],
+  strings: [
+    "My name is Lorenzo, and I'm currently a double degree master student between Politecnico di Torino, Italy and Eurecom, France.",
+  ],
 });
 
 typewriter
@@ -13,9 +15,7 @@ typewriter
   .pauseFor(50)
   // .typeString('My name is Lorenzo, and I am a student and wannabe hacker.')
   .deleteAll(1)
-  .typeString(
-    "I'm currently a double degree master student between Politecnico di Torino, Italy and Eurecom, France."
-  )
+  // .typeString("")
   .pauseFor(300)
   .deleteAll(1)
   .typeString("Find me online: <br />")
