@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/f4ncyz4nz4/f4ncyz4nz4.github.io/static/css/main.3fad944b.css",
-    "main.js": "/f4ncyz4nz4/f4ncyz4nz4.github.io/static/js/main.016975b6.js",
-    "static/js/787.df3980d1.chunk.js": "/f4ncyz4nz4/f4ncyz4nz4.github.io/static/js/787.df3980d1.chunk.js",
-    "index.html": "/f4ncyz4nz4/f4ncyz4nz4.github.io/index.html",
-    "main.3fad944b.css.map": "/f4ncyz4nz4/f4ncyz4nz4.github.io/static/css/main.3fad944b.css.map",
-    "main.016975b6.js.map": "/f4ncyz4nz4/f4ncyz4nz4.github.io/static/js/main.016975b6.js.map",
-    "787.df3980d1.chunk.js.map": "/f4ncyz4nz4/f4ncyz4nz4.github.io/static/js/787.df3980d1.chunk.js.map"
+    "main.css": "/f4ncyz4nz4.github.io/static/css/main.3fad944b.css",
+    "main.js": "/f4ncyz4nz4.github.io/static/js/main.9fb92c34.js",
+    "static/js/787.df3980d1.chunk.js": "/f4ncyz4nz4.github.io/static/js/787.df3980d1.chunk.js",
+    "index.html": "/f4ncyz4nz4.github.io/index.html",
+    "main.3fad944b.css.map": "/f4ncyz4nz4.github.io/static/css/main.3fad944b.css.map",
+    "main.9fb92c34.js.map": "/f4ncyz4nz4.github.io/static/js/main.9fb92c34.js.map",
+    "787.df3980d1.chunk.js.map": "/f4ncyz4nz4.github.io/static/js/787.df3980d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3fad944b.css",
-    "static/js/main.016975b6.js"
+    "static/js/main.9fb92c34.js"
   ]
 }
