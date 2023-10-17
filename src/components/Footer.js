@@ -4,7 +4,7 @@ function Footer(props) {
   return (
     <footer className="footer">
       <a
-        href="https://github.com/f4ncyz4nz4/f4ncyz4nz4.github.io"
+        href="https://github.com/f4ncyz4nz4/f4ncyz4nz4.github.io/"
         className="svglink"
       >
         <svg

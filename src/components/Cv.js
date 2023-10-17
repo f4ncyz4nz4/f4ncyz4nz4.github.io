@@ -5,7 +5,7 @@ function Cv(props) {
     <Container>
       <h1>Curriculum Vitae</h1>
       <p>Check out my CV!</p>
-      <a href="/doc/cv.pdf" download="LorenzoIppolito.pdf">
+      <a href="/docs/cv.pdf" download="LorenzoIppolito.pdf">
         Download PDF
       </a>
     </Container>

@@ -212,3 +212,19 @@ pre {
 .blu-text {
   color: rgb(70, 70, 230);
 }
+
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #120e14;
+  color: rgb(0, 170, 0);
+}
+
+.terminal {
+  width: 400px;
+  background-color: #120e14;
+  border: 2px solid rgb(0, 170, 0);
+  padding: 20px;
+  border-radius: 10px;
+}

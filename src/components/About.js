@@ -46,7 +46,7 @@ function About(props) {
       </p>
       <p>Let's stay curious and vigilant together!</p>
       <p>
-        <a href="/doc/LorenzoIppolito.vcf" download>
+        <a href="/docs/LorenzoIppolito.vcf" download>
           [vCard]
         </a>
       </p>
