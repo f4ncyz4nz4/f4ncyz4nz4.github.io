@@ -5,7 +5,7 @@ function Header(props) {
     <Navbar>
       <Container>
         <Nav className="nav">
-          <Nav.Link href="/" className="underline">
+          <Nav.Link href="/#" className="underline">
             /home
           </Nav.Link>
           <Nav.Link href="/#/about" className="underline">
