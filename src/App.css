@@ -209,6 +209,12 @@ pre {
   color: rgb(230, 96, 47);
 }
 
+.orange-text a {
+  text-decoration: none;
+  cursor: text;
+  color: inherit;
+}
+
 .blu-text {
   color: rgb(70, 70, 230);
 }
