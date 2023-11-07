@@ -44,12 +44,12 @@ function Home(props) {
             <br />
           </li>
           <li>
-            <a href="https://twitter.com/Ippo_99">Twitter</a>
+            <a href="https://github.com/f4ncyz4nz4">GitHub</a>
             <br />
             <br />
           </li>
           <li>
-            <a href="https://github.com/f4ncyz4nz4">GitHub</a>
+            <a href="https://twitter.com/Ippo_99">Twitter</a>
             <br />
             <br />
           </li>

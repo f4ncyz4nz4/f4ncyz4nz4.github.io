@@ -1,5 +1,6 @@
 import "./App.css";
 import { HashRouter, Route, Routes, Outlet } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
@@ -7,7 +8,7 @@ import About from "./components/About";
 import Cv from "./components/Cv";
 import Publications from "./components/Publications";
 import NotFound from "./components/NotFound";
-import { Container, Row, Col } from "react-bootstrap";
+import Ctf from "./components/Ctf";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="cv" element={<Cv />} />
+          <Route path="ctf" element={<Ctf />} />
           <Route path="publications" element={<Publications />} />
           <Route path="*" element={<NotFound />} />
         </Route>

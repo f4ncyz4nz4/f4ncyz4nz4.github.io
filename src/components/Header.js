@@ -17,9 +17,9 @@ function Header(props) {
           {/* <Nav.Link href="/#/publications" className="underline">
             /publications
           </Nav.Link> */}
-          {/* <Nav.Link href="/#/press" className="underline">
-            /press
-          </Nav.Link> */}
+          <Nav.Link href="/#/ctf" className="underline">
+            /ctf
+          </Nav.Link>
         </Nav>
       </Container>
     </Navbar>

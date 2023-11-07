@@ -50,6 +50,16 @@ function About(props) {
           [vCard]
         </a>
       </p>
+      <h2>Experience</h2>
+      <ul className="education-list">
+        <li>
+          <strong>Researcher</strong>, IMDEA Software Institute, 6 months intern
+        </li>
+        <li>
+          <strong>Penetration Tester</strong>, Shielder, 3 months intern
+        </li>
+        {/* <li>[Job Title], [Company Name], [Employment Dates]</li> */}
+      </ul>
       <h2>Education</h2>
       <ul className="education-list">
         <li>
@@ -63,12 +73,6 @@ function About(props) {
           <strong>Bachelor's degree</strong>, Computer Engineering, Polytechnic
           of Turin, Jul 2021, <em>110 cum laude</em>
         </li>
-      </ul>
-      <h2>Experience</h2>
-      <ul className="education-list">
-        <li>Researcher, IMDEA Software Institute, 6 months intern</li>
-        <li>Penetration Tester, Shielder, 3 months intern</li>
-        {/* <li>[Job Title], [Company Name], [Employment Dates]</li> */}
       </ul>
     </Container>
   );
