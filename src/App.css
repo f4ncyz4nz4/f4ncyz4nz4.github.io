@@ -1,15 +1,22 @@
 html {
   background-color: #120e14 !important;
+  color: rgb(185, 180, 169);
 }
 
 body {
-  background: #120e14;
-  color: rgb(185, 180, 169);
   font-family: "Fira Mono", monospace;
   font-size: 16px;
   margin: 0 auto;
-  padding: 0px;
+  padding: 0 auto;
   max-width: 550px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .body {
@@ -174,30 +181,6 @@ pre {
   overflow: scroll;
   padding: 15px 15px;
   font-size: 14px;
-}
-
-@media (max-width: 480px) {
-  .text {
-    font-size: 1rem;
-    line-height: 1.4;
-    max-width: 100%;
-    padding: 1rem;
-  }
-
-  .container {
-    margin-top: 2rem;
-  }
-
-  .site-title {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-
-  .cursor {
-    width: 0.8rem;
-    height: 1rem;
-    margin-left: 0.1rem;
-  }
 }
 
 .pub_link {
