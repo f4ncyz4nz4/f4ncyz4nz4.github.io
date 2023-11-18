@@ -6,7 +6,17 @@ function Ctf(props) {
       <h1>CTFs</h1>
       <div>
         In the world of CTFs I'm known as{" "}
-        <span class="f4ncyz4nz4">f4ncyz4nz4</span>.
+        <span>
+          <a
+            href="https://www.youtube.com/watch?v=J1V2NWb39vE&pp=ygUPYm9pbmcgY2x1YiBkb2dv"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="f4ncyz4nz4"
+          >
+            f4ncyz4nz4
+          </a>
+        </span>
+        .
       </div>
       <div>
         Check out my{" "}
@@ -29,7 +39,28 @@ function Ctf(props) {
       <ul>
         <li className="title">
           <a
-            href="https://ph0wn.org/"
+            href="https://2023.squarectf.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            SquareCTF
+          </a>
+        </li>
+        <div className="date">2023-11-17</div>
+        <div>
+          <strong>On-line / Jeopardy</strong>
+        </div>
+        <div>
+          <s>Write-ups</s>
+        </div>
+        <div>Team name: b4shlyk</div>
+        <div>
+          Ranking: <strong>145st</strong>
+        </div>
+        <br />
+        <li className="title">
+          <a
+            href="https://ph0wn.org/2022/12/09/edition2022.html"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -54,22 +85,6 @@ function Ctf(props) {
           Ranking: <strong>21st</strong>
         </div>
         <br />
-        {/* <li className="title">
-          <a href="https://official/" target="_blank" rel="noopener noreferrer">
-            CTF name
-          </a>
-        </li>
-        <div className="date">2023-11-10</div>
-        <div>
-          <strong>On-line / Jeopardy</strong>
-        </div>
-        <div>
-          <a href="https://official/" target="_blank" rel="noopener noreferrer">
-            Write-ups
-          </a>
-        </div>
-        <div>Rating: 1st</div>
-        <br /> */}
       </ul>
     </Container>
   );
