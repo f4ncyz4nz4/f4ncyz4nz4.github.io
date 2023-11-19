@@ -6,82 +6,45 @@ html {
 body {
   font-family: "Fira Mono", monospace;
   font-size: 16px;
-  margin: 0 auto;
-  padding: 0 auto;
-  max-width: 550px;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   body {
     font-size: 14px;
     padding-left: 20px;
     padding-right: 20px;
   }
-}
+} */
 
 .body {
-  min-height: 80vh;
+  margin: 0 auto;
+  padding: 0 auto;
+  max-width: 750px;
+  min-height: 83vh;
+  text-align: center;
 }
 
-header {
+.map {
+  padding: 0 auto;
+  text-align: center;
+  min-height: 83vh;
+}
+
+.header {
   margin: 40px 0px 60px;
-}
-
-header .site-title a {
-  text-decoration: none;
-}
-
-header .devlog-title {
-  font-weight: bold;
-}
-
-header h1 a {
-  color: rgb(185, 180, 169);
+  text-align: center;
 }
 
 footer {
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
 .nav {
-  margin-top: 40px;
   margin-bottom: 60px;
 }
 
-footer .svglink,
-footer svglink:hover {
-  text-decoration: none;
-}
-
-footer svg {
-  fill: rgb(185, 180, 169);
-  width: 20px;
-}
-
-footer svg:hover {
-  fill: rgb(0, 170, 0);
-  stroke: rgb(0, 170, 0);
-}
-
-#archive {
-  margin: 0px;
-  padding: 0px;
-  text-transform: uppercase;
-}
-
 img {
-  margin: 20px 0px;
-  padding: 0px;
   max-width: 100%;
-}
-
-svg {
-  stroke: rgb(185, 180, 169);
-  stroke-width: 1;
-  fill: rgb(185, 180, 169);
-  margin: 0 auto;
 }
 
 a {
@@ -116,26 +79,6 @@ a {
   transform: scaleX(1);
 }
 
-.highlight {
-  color: rgb(185, 180, 169);
-  position: relative;
-  z-index: 1;
-}
-
-.highlight::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: -0.25em;
-  right: -0.25em;
-  background-color: rgb(0, 170, 0);
-  transform-origin: bottom center;
-  transform: scaleY(0.1);
-  transition: all 0.1s ease-in-out;
-}
-
 .highlight:hover::before {
   transform: scaleY(1);
   background-color: rgb(0, 170, 0);
@@ -150,19 +93,6 @@ a {
   border-radius: 1px;
 }
 
-.centered {
-  margin: 0px auto 40px;
-  display: block;
-}
-
-.title {
-  font-weight: bold;
-}
-
-.education-list li {
-  margin-bottom: 10px; /* Add a margin between the <li> elements */
-}
-
 @keyframes cursor {
   0% {
     opacity: 0;
@@ -175,16 +105,20 @@ a {
   }
 }
 
-pre {
-  max-width: 850px;
-  overflow: scroll;
-  padding: 15px 15px;
-  font-size: 14px;
+h1 {
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+}
+
+#education-list li {
+  margin-bottom: 10px;
 }
 
 .pub_link {
   margin-right: 15px;
-  text-decoration: none;
 }
 
 .orange-text {
@@ -204,7 +138,7 @@ pre {
 .not-found-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   background-color: #120e14;
   color: rgb(0, 170, 0);
 }
@@ -221,4 +155,9 @@ pre {
   font-family: "Courier New", monospace;
   font-size: 18px;
   color: rgb(230, 96, 47);
+}
+
+.list-centered {
+  display: inline-block;
+  text-align: left;
 }
