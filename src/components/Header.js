@@ -3,7 +3,7 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 function Header(props) {
   return (
     <Navbar>
-      <Container>
+      <Container className="header">
         <Nav className="nav">
           <Nav.Link href="/#" className="underline">
             /home
@@ -17,8 +17,11 @@ function Header(props) {
           {/* <Nav.Link href="/#/publications" className="underline">
             /publications
           </Nav.Link> */}
-          <Nav.Link href="/#/ctf" className="underline">
-            /ctf
+          <Nav.Link href="/#/ctfs" className="underline">
+            /ctfs
+          </Nav.Link>
+          <Nav.Link href="/#/map" className="underline">
+            /map
           </Nav.Link>
         </Nav>
       </Container>

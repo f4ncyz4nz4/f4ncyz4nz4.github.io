@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 
 function Ctf(props) {
   return (
-    <Container>
+    <Container className="centered">
       <h1>CTFs</h1>
       <div>
         In the world of CTFs I'm known as{" "}
@@ -11,7 +11,7 @@ function Ctf(props) {
             href="https://www.youtube.com/watch?v=J1V2NWb39vE&pp=ygUPYm9pbmcgY2x1YiBkb2dv"
             target="_blank"
             rel="noopener noreferrer"
-            class="f4ncyz4nz4"
+            className="f4ncyz4nz4"
           >
             f4ncyz4nz4
           </a>
@@ -30,13 +30,13 @@ function Ctf(props) {
         profile!
       </div>
       <h3>All my teams</h3>
-      <ul>
+      <ul className="list-centered">
         <li>b4shlyk</li>
         <li>NOPS</li>
         <li>pwnthem0le</li>
       </ul>
       <h3>Participations</h3>
-      <ul>
+      <ul className="list-centered">
         <li className="title">
           <a
             href="https://2023.squarectf.com"

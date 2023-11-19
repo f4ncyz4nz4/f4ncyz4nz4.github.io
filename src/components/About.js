@@ -4,7 +4,6 @@ function About(props) {
   return (
     <Container>
       <h1>About Me</h1>
-      {/* <img src="images/profile.jpg" alt="Profile Picture" /> */}
       <p>
         Hey there! I'm Lorenzo, a <strong>double degree student</strong> at{" "}
         <a
@@ -51,7 +50,7 @@ function About(props) {
         </a>
       </p>
       <h2>Experience</h2>
-      <ul className="education-list">
+      <ul className="list-centered" id="education-list">
         <li>
           <strong>Researcher</strong>, IMDEA Software Institute, 6 months intern
         </li>
@@ -61,7 +60,7 @@ function About(props) {
         {/* <li>[Job Title], [Company Name], [Employment Dates]</li> */}
       </ul>
       <h2>Education</h2>
-      <ul className="education-list">
+      <ul className="list-centered" id="education-list">
         <li>
           <strong>Master's degree</strong>, Digital Security, Eurecom, Sep 2022
         </li>

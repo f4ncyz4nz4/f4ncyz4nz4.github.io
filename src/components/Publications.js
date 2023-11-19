@@ -4,7 +4,7 @@ function Publications(props) {
   return (
     <Container>
       <h1>Publications</h1>
-      <ul>
+      <ul className="list-centered">
         <li className="title">Title 1</li>
         <div className="authors">Authors</div>
         <div className="conference">
@@ -35,7 +35,7 @@ function Publications(props) {
         <br /> */}
       </ul>
       <h3>Master's thesis</h3>
-      <ul>
+      <ul className="list-centered">
         <li className="title">Title 1</li>
         <div className="authors">Authors</div>
         <div className="conference">

@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 function Home(props) {
   return (
     <Container>
-      <div className="site-title">
+      <div>
         <h1>
           <span className="orange-text">f4ncyz4nz4</span>@
           <span className="blu-text">oneiros</span>:~$
@@ -22,8 +22,8 @@ function Home(props) {
         .
         <br />
         <br />
-        Find me online:
-        <ul>
+        <div>Find me online:</div>
+        <ul className="list-centered">
           <li>
             Email: lorenzoippolito <em>dot</em> 99 <em>at</em> gmail{" "}
             <em>dot</em> com
