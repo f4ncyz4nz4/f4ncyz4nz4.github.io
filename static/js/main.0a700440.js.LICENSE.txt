@@ -4,6 +4,8 @@
 	http://jedwatson.github.io/classnames
 */
 
+/*! For license information please see react-image-zooom.js.LICENSE.txt */
+
 /**
  * @license React
  * react-dom.production.min.js
