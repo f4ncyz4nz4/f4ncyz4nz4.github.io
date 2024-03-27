@@ -5,13 +5,13 @@ function Publications(props) {
     <Container>
       <h1>Publications</h1>
       <ul className="list-centered">
-        <li className="title">Title 1</li>
+        {/* <li className="title">Title 1</li>
         <div className="authors">Authors</div>
         <div className="conference">
           ACM Asia Conference on Computer and Communications Security (ASIACCS
           2019)
         </div>
-        {/* <div className="acceptance">Acceptance rate: ?</div> */}
+        <div className="acceptance">Acceptance rate: ?</div>
         <div>
           <a href="publication/publication1.pdf" className="pub_link">
             pdf
@@ -23,34 +23,38 @@ function Publications(props) {
             bibtex
           </a>
         </div>
-        <br />
-        {/* <li className="title">Title</li>
-        <div className="authors">Authors</div>
-        <div className="conference">Conference</div>
-        <div>
-          <a href="publication/publication1.pdf" className="pub_link">pdf</a>
-          <a href="publication/publication1-slides.pdf" className="pub_link">slides</a>
-          <a href="publication/publication1.bib" className="pub_link">bibtex</a>
-        </div>
         <br /> */}
       </ul>
-      <h3>Master's thesis</h3>
+      <h3>Thesis</h3>
       <ul className="list-centered">
-        <li className="title">Title 1</li>
-        <div className="authors">Authors</div>
-        <div className="conference">
-          ACM Asia Conference on Computer and Communications Security (ASIACCS
-          2019)
-        </div>
-        {/* <div className="acceptance">Acceptance rate: ?</div> */}
+        <li className="title">
+          A Framework for the Analysis of File Infection Malware
+        </li>
+        <div className="authors">Lorenzo Ippolito</div>
         <div>
-          <a href="publication/publication1.pdf" className="pub_link">
+          M.Sc. thesis at Politecnico di Torino, Turin, Italy, April 2024.
+        </div>
+        <div>Supervisors: Dr. Juan Caballero and Prof. Cataldo Basile.</div>
+        <div>
+          <a
+            href="publications/master_thesis/master_thesis.pdf"
+            className="pub_link"
+            download="master_thesis.pdf"
+          >
             pdf
           </a>
-          <a href="publication/publication1-slides.pdf" className="pub_link">
+          <a
+            href="publications/master_thesis/master_thesis_presentation.pdf"
+            className="pub_link"
+            download="master_thesis_presentation.pdf"
+          >
             slides
           </a>
-          <a href="publication/publication1.bib" className="pub_link">
+          <a
+            href="publications/master_thesis/master_thesis.bib"
+            className="pub_link"
+            download="master_thesis.bib"
+          >
             bibtex
           </a>
         </div>

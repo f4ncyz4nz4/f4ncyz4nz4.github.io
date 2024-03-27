@@ -11,7 +11,7 @@ function About(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Polytechnic of Turin
+          Politecnico di Torino
         </a>
         , Italy, and{" "}
         <a
@@ -62,15 +62,16 @@ function About(props) {
       <h2>Education</h2>
       <ul className="list-centered" id="education-list">
         <li>
-          <strong>Master's degree</strong>, Digital Security, Eurecom, Sep 2022
+          <strong>Master's degree</strong>, Digital Security, Eurecom, April
+          2024
         </li>
         <li>
-          <strong>Master's degree</strong>, Computer Engineering, Polytechnic of
-          Turin, Sep 2021
+          <strong>Master's degree</strong>, Computer Engineering, Politecnico di
+          Torino, April 2024
         </li>
         <li>
-          <strong>Bachelor's degree</strong>, Computer Engineering, Polytechnic
-          of Turin, Jul 2021, <em>110 cum laude</em>
+          <strong>Bachelor's degree</strong>, Computer Engineering, Politecnico
+          di Torino, Jul 2021, <em>110 cum laude</em>
         </li>
       </ul>
     </Container>

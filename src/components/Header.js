@@ -14,9 +14,9 @@ function Header(props) {
           <Nav.Link href="/#/cv" className="underline">
             /cv
           </Nav.Link>
-          {/* <Nav.Link href="/#/publications" className="underline">
+          <Nav.Link href="/#/publications" className="underline">
             /publications
-          </Nav.Link> */}
+          </Nav.Link>
           <Nav.Link href="/#/ctfs" className="underline">
             /ctfs
           </Nav.Link>

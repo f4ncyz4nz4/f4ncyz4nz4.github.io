@@ -161,3 +161,10 @@ h1 {
   display: inline-block;
   text-align: left;
 }
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}

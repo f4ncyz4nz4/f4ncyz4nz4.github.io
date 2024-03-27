@@ -48,7 +48,7 @@ function Ctf(props) {
         </li>
         <div className="date">2023-11-17</div>
         <div>
-          <strong>On-line / Jeopardy</strong>
+          <strong>Online / Jeopardy</strong>
         </div>
         <div>
           <s>Write-ups</s>
