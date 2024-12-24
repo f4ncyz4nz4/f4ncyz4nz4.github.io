@@ -2,12 +2,12 @@ BEGIN:VCARD
 VERSION:3.0
 N:Ippolito;Lorenzo;;;
 FN:Lorenzo Ippolito
-ORG:IMDEA Software Institute
-TITLE:Research Student
-EMAIL;type=INTERNET;type=WORK;type=pref:lorenzo.ippolito@imdea.org
+ORG:Fortgale
+TITLE:Cyber Security Analyst
+EMAIL;type=INTERNET;type=WORK;type=pref:lorenzo.ippolito@fortgale.com
 EMAIL;type=INTERNET;type=HOME;type=pref:lorenzoippolito.99@gmail.com
 TEL;type=HOME;type=pref:+39 334 944 9399
-ADR;TYPE=WORK:;;Calle de María Guerrero 7;Madrid;Madrid;28019;Spain;
+ADR;TYPE=WORK:;;;Milan;20126;Italy;
 URL:https://f4ncyz4nz4.github.io/
 BDAY:1999-05-02
 GENDER:M

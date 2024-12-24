@@ -15,9 +15,9 @@ function Home(props) {
       <div>
         My name is Lorenzo, but everyone calls me <em>ippo</em>.
         <br />
-        I'm currently a{" "}
+        I'm a
         <strong>
-          <em>research student</em>
+          <em>Cyber Security Analyst</em>
         </strong>
         .
         <br />
@@ -45,11 +45,11 @@ function Home(props) {
             <br />
             <br />
           </li>
-          {/* <li>
-            <a href="https://">Scholar</a>
+          <li>
+            <a href="https://scholar">Google Scholar</a>
             <br />
             <br />
-          </li> */}
+          </li>
         </ul>
       </div>
     </Container>
