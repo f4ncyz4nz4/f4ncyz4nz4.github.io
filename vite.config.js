@@ -8,6 +8,6 @@ export default defineConfig({
       usePolling: true,
     },
   },
-  base: "/f4ncyz4nz4.github.io/",
+  base: "/",
   plugins: [react()],
 });

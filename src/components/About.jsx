@@ -90,13 +90,13 @@ function About(props) {
           <strong>Master's degree</strong>, Computer Engineering, Politecnico di
           Torino, April 2024
           <br />
-          <em>110 cum laude</em>
+          Grade: <em className="italics">110 / 110, cum laude (with honors)</em>
         </li>
         <li>
           <strong>Bachelor's degree</strong>, Computer Engineering, Politecnico
           di Torino, Jul 2021
           <br />
-          <em>110 cum laude</em>
+          Grade: <em className="italics">110 / 110, cum laude (with honors)</em>
         </li>
       </ul>
     </>

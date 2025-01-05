@@ -14,12 +14,12 @@ a {
   text-decoration: none;
 }
 
-em {
-  color: whitesmoke;
+.italics {
+  color: rgb(190, 190, 190);
 }
 
 strong {
-  color: wheat;
+  color: rgb(200, 200, 200);
 }
 
 .underline:hover {

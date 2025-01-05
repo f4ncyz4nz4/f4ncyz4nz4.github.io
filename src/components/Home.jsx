@@ -12,7 +12,7 @@ function Home(props) {
       <div>
         My name is Lorenzo, but everyone calls me <em>ippo</em>.
         <br />
-        I'm a <strong><em>Cyber Security Analyst</em></strong>.
+        I'm a <strong>Cyber Security Analyst</strong>.
         <br />
         <br />
         <div>Find me online:</div>
