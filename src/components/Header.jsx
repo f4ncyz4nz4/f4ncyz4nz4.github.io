@@ -4,7 +4,7 @@ function Header(props) {
   return (
     <Navbar>
       <Nav>
-        <Nav.Link href="/#" className="underline">
+        <Nav.Link href="/" className="underline">
           /home
         </Nav.Link>
         <Nav.Link href="/#/about" className="underline">
@@ -19,9 +19,9 @@ function Header(props) {
         <Nav.Link href="/#/ctfs" className="underline">
           /ctfs
         </Nav.Link>
-        {/* <Nav.Link href="/#/map" className="underline">
-          /map
-        </Nav.Link> */}
+        <Nav.Link href="/#/posts" className="underline">
+          /posts
+        </Nav.Link>
       </Nav>
     </Navbar>
   );

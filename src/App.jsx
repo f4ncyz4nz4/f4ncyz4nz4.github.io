@@ -7,9 +7,10 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Cv from "./components/Cv";
 import Publications from "./components/Publications";
+import Posts from "./components/Posts";
+import Post from "./components/Post";
 import NotFound from "./components/NotFound";
 import Ctf from "./components/Ctf";
-//import Map from "./components/Map";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <Route path="cv" element={<Cv />} />
           <Route path="ctfs" element={<Ctf />} />
           <Route path="publications" element={<Publications />} />
+          <Route path="posts" element={<Posts />} />
+          <Route path="post" element={<Post />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
