@@ -2,8 +2,8 @@ function Publications(props) {
   return (
     <>
       <h1>Publications</h1>
-      <ul className="list-centered">
-        {/* <li className="title">Title 1</li>
+      {/* <ul className="list-centered">
+        <li className="title">Title 1</li>
         <div className="authors">Authors</div>
         <div className="conference">
           ACM Asia Conference on Computer and Communications Security (ASIACCS
@@ -21,8 +21,8 @@ function Publications(props) {
             bibtex
           </a>
         </div>
-        <br /> */}
-      </ul>
+        <br />
+      </ul> */}
       <h3>Thesis</h3>
       <ul className="list-centered">
         <li className="title">
