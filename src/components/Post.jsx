@@ -13,7 +13,7 @@ const Post = () => {
     if (postId) {
       const fetchPost = async () => {
         try {
-          const response = await fetch(`/posts/post${postId}.md`);
+          const response = await fetch(`/posts/${postId}/${postId}.md`);
           if (!response.ok) {
             setError(true);
             return;

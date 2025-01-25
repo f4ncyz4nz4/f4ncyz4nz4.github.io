@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 function Posts(props) {
   const posts = [
     {
-      id: 1,
-      title: "Gozi String Decryption",
-      date: "2023-01-01",
-      description: "bla bla bla",
+      id: "gozi_string_decryptor",
+      title: "Gozi String Decryption - Zero2Automated",
+      date: "2025-01-25",
+      description:
+        "The Gozi String Decryptor challenge in the Zero2Automated course involves reverse engineering the string decryption function of the Gozi malware and replicating it in Python.",
     },
-    // { id: 2, title: "Title 2", date: "2023-02-15", description: "75%" },
-    // { id: 3, title: "Title 3", date: "2023-03-10", description: "90%" },
+    // { id: 2, title: "Title 2", date: "2023-02-15", description: "description" },
   ];
 
   return (
