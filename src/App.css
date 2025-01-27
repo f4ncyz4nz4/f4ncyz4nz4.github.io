@@ -326,3 +326,8 @@ strong {
   font-size: inherit;
   border: 0px;
 }
+
+.markdown img {
+  display: block;
+  margin: 0 auto;
+}
