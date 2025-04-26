@@ -4,7 +4,7 @@ function Footer(props) {
   return (
     <footer className="footer">
       &copy;
-      <span id="copyright"> {currentYear} Lorenzo Ippolito 🇮🇹</span>
+      <span id="copyright">{currentYear} f4ncyz4nz4 🇮🇹</span>
     </footer>
   );
 }

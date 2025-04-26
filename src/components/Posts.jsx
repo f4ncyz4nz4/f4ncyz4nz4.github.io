@@ -16,6 +16,13 @@ function Posts(props) {
       description:
         "The Oski Stealer String Decryption challenge, part of the Zero2Automated series, involves reverse engineering the string decryption routine from a Oski Stealer sample and developing a script to automate the decryption process.",
     },
+    {
+      id: "dfir_simulated-case-1",
+      title: "Simulated-Case-1 - The DFIR Report",
+      date: "2025-04-26",
+      description:
+        "The Volunteer DFIR Analyst initiative invites security enthusiasts to analyze real-world intrusion data, collaborate globally, and contribute to monthly public reports detailing threat actor TTPs, with opportunities to present findings at security conferences.",
+    },
   ];
 
   return (
