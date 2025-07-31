@@ -34,12 +34,12 @@ function Home(props) {
             <br />
           </li>
           <li>
-            <a href="https://twitter.com/Ippo_99">Twitter</a>
+            <a href="https://x.com/f4ncyz4nz4">Twitter</a>
             <br />
             <br />
           </li>
           <li>
-            <a href="https://work_in_progress">Google Scholar</a>
+            <a href="https://orcid.org/0009-0008-7978-6777">ORCID</a>
             <br />
             <br />
           </li>

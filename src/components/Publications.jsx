@@ -2,14 +2,14 @@ function Publications(props) {
   return (
     <>
       <h1>Publications</h1>
-      {/* <ul className="list-centered">
-        <li className="title">Title 1</li>
-        <div className="authors">Authors</div>
+      <ul className="list-centered">
+        <li className="title">
+          <strong>The Polymorphism Maze: Understanding Diversities and Similarities in Malware Families</strong>
+        </li>
+        <div className="authors">A. Vitale, S. Aonzo, S. Dambra, N. Rani, <strong>L. Ippolito</strong>, P. Kotzias, J. Caballero and D. Balzarotti</div>
         <div className="conference">
-          ACM Asia Conference on Computer and Communications Security (ASIACCS
-          2019)
+          European Symposium on Research in Computer Security (ESORICS), 2025
         </div>
-        <div className="acceptance">Acceptance rate: ?</div>
         <div>
           <a href="publication/publication1.pdf" className="pub_link">
             pdf
@@ -22,7 +22,7 @@ function Publications(props) {
           </a>
         </div>
         <br />
-      </ul> */}
+      </ul>
       <h3>Thesis</h3>
       <ul className="list-centered">
         <li className="title">

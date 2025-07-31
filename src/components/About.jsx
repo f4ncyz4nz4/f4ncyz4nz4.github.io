@@ -35,7 +35,6 @@ function About(props) {
         collection of CTF writeups and detailed malware analysis, reflecting my
         journey through the world of cybersecurity.
       </p>
-      <p>Let's make the digital world a safer place!</p>
       {/* <p>
         <a href="" download>
           [vCard]
@@ -43,6 +42,17 @@ function About(props) {
       </p> */}
       <h2>Experience</h2>
       <ul className="list-centered" id="education-list">
+        <li>
+          <strong>System Engineer</strong>,{" "}
+          <a
+            href="https://www.cloudflare.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cloudflare
+          </a>
+          , now
+        </li>
         <li>
           <strong>Cyber Security Analyst</strong>,{" "}
           <a
@@ -52,7 +62,7 @@ function About(props) {
           >
             Fortgale
           </a>
-          , now
+          , 1 years and 1 month
         </li>
         <li>
           <strong>Security Researcher</strong>,{" "}
@@ -63,7 +73,7 @@ function About(props) {
           >
             IMDEA Software Institute
           </a>
-          , 6 months intern
+          , 6 months
         </li>
         <li>
           <strong>Penetration Tester</strong>,{" "}
